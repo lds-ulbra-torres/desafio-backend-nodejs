@@ -20,7 +20,7 @@ Desenvolver uma API Restful de Agenda de Compromissos (CRUD) utilizando Node.js.
 
 - O template do Node.js já está disponível. Basta fazer as configurações necessárias para o projeto.
 
-### Documentação da API de exemplo
+#### Documentação da API de exemplo:
 
 - https://desafio-lds.herokuapp.com/documentation/v1.0.0
 
@@ -32,14 +32,14 @@ Desenvolver uma API Restful de Agenda de Compromissos (CRUD) utilizando Node.js.
 4. Ao finalizar este desafio, enviar um pull request com suas alterações e envie um e-mail para joziel.santos@rede.ulbra.br com o link do pull request.
 
 
-### Diferenciais
+#### Diferenciais:
 
 - Legibilidade;
 - Boa documentação;
 - Testes automatizados;
 - Dockerização
 
-### Contatos
+#### Contatos:
 
 - cassio.huggentobler@rede.ulbra.br
 - daniela.schutt@rede.ulbra.br
