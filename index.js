@@ -1,8 +1,12 @@
 const express = require('express')
-// Instance Express in app
+
+const PORT = 3001
+const HOST = '0.0.0.0'
+
 const app = express()
-const port = process.env.PORT || 3000
-// Initialize Server
-app.listen(port, () => {
-    console.log(`Server linsten port ${port}`)
+
+app.get('/', (req, res) => {
+  res.send('oi marga')
 })
+
+app.listen(PORT, HOST)

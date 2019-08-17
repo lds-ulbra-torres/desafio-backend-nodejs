@@ -1,11 +1,10 @@
 {
   "name": "desafio-backend",
   "version": "1.0.0",
-  "description": "API Restful de Agenda de Compromissos",
+  "description": "API Restful do Star War",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index",
-    "dev": "nodemon ./index"
+    "start": "nodemon index.js"
   },
   "keywords": [
     "lds",
@@ -17,9 +16,9 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.19.1"
   }
 }
