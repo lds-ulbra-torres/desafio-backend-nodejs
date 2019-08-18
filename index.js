@@ -13,23 +13,18 @@ app.use(cors())
 
 //inicia o DB
 
-// const db = async () => {
-//   try {
-//     await mongoose.connect(
-//       'mongodb://mongo/star',
-//       { useNewUrlParser: true }
-//     )
-//   } catch (error) {
-//     console.log(error)
-//   }
-// }
+const db = async () => {
+  try {
+    await mongoose.connect(
+      'mongodb://mongo/star',
+      { useNewUrlParser: true }
+    )
+  } catch (error) {
+    console.log(error)
+  }
+}
 
-// db()
-
-mongoose.connect(
-  'mongodb://mongo/star',
-  { useNewUrlParser: true }
-)
+db()
 
 requireDir('./src/models')
 

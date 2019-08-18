@@ -29,7 +29,7 @@ module.exports = {
   },
 
   async destroy(req, res) {
-    await People.findByIdAndDelete(req.params.id)
+    await People.findByIdAndRemove(req.params.id)
 
     return res.send()
   },

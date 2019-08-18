@@ -10,62 +10,62 @@ const PeopleSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
-  // peso: {
-  //   type: Number,
-  //   required: true,
-  // },
-  // corDoCabelo: {
-  //   type: String,
-  //   required: true,
-  // },
-  // corDaPele: {
-  //   type: String,
-  //   required: true,
-  // },
-  // corDosOlhos: {
-  //   type: String,
-  //   required: true,
-  // },
-  // dataDeNascimento: {
-  //   type: Date,
-  //   required: true,
-  // },
-  // genero: {
-  //   type: String,
-  //   required: true,
-  // },
-  // terraNatal: {
-  //   type: String,
-  //   required: true,
-  // },
-  // filme: {
-  //   type: String,
-  //   required: true,
-  // },
-  // especie: {
-  //   type: String,
-  //   required: true,
-  // },
-  // veiculo: {
-  //   type: String,
-  //   required: true,
-  // },
-  // nave: {
-  //   type: String,
-  //   required: true,
-  // },
+  peso: {
+    type: Number,
+    required: true,
+  },
+  corDoCabelo: {
+    type: String,
+    required: false,
+  },
+  corDaPele: {
+    type: String,
+    required: false,
+  },
+  corDosOlhos: {
+    type: String,
+    required: false,
+  },
+  dataDeNascimento: {
+    type: Date,
+    required: true,
+  },
+  genero: {
+    type: String,
+    required: false,
+  },
+  terraNatal: {
+    type: String,
+    required: false,
+  },
+  filme: {
+    type: String,
+    required: false,
+  },
+  especie: {
+    type: String,
+    required: false,
+  },
+  veiculo: {
+    type: String,
+    required: false,
+  },
+  nave: {
+    type: String,
+    required: false,
+  },
   criadoEm: {
     type: Date,
     default: Date.now,
   },
-  // editadoEm: {
-  //   type: Date,
-  //   default: Date.now,
-  // },
-  // url: {
-  //   type: String,
-  //   required: true,
-  // },
+  editadoEm: {
+    type: Date,
+    default: Date.now,
+  },
+  url: {
+    type: String,
+    required: false,
+  },
 })
 
 PeopleSchema.plugin(mongoosePaginate)
