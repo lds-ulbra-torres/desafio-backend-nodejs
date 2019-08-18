@@ -1,10 +1,20 @@
 version: "3"
 
 services:
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data/db:/data/db
   nodejs:
     build: .
     command: npm start
     ports:
       - "3001:3001"
+    depends_on:
+      - mongo
     volumes:
       - .:/usr/app
+    links:
+      - mongo
