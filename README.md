@@ -21,8 +21,6 @@ Desenvolver uma API Restful utilizando Node.js.
 #### Diferenciais:
 
 - Legibilidade;
-- Boa documentação;
-- Testes automatizados;
 - Dockerização
 
 #### Contatos:
