@@ -1,3 +1,4 @@
+
 # Desafio Back-end LDS (Node): node.js, mysql/postgres/mongo
 
 #### Objetivo:
@@ -8,11 +9,11 @@ Desenvolver uma API Restful utilizando Node.js.
 
 - Implementar em Node.js uma API Restful com as funcionalidades abaixo.
 
-- Gerenciar pessoas (nome, telefone, e-mail)
-  - Listar (e filtrar quais pessoas por nome ou e-mail)
-  - Adicionar
-  - Editar
-  - Excluir
+- Gerenciar pessoas (nome, telefone, e-mail) 
+  - Listar (e filtrar quais pessoas por nome ou e-mail) ok
+  - Adicionar ok
+  - Editar ok
+  - Excluir ok
   - a pessoa pode ter nenhum ou muitos endereços, com os campos logragouro, número, bairro, cidade e estado.
   - Um endereço pertence a uma e somente uma pessoa.
 
@@ -42,9 +43,3 @@ Desenvolver uma API Restful utilizando Node.js.
 - cassio.costa@ulbra.br
 - ramon.lummertz@ulbra.br
 - vinicius.magnus@ulbra.b
-
----
-
-Em caso de dúvidas, [abra uma issue](https://github.com/lds-ulbra-torres/desafio-backend-nodejs/issues)
-
-boa sorte e abç.

@@ -1,25 +1,41 @@
 {
-  "name": "desafio-backend",
-  "version": "1.0.0",
-  "description": "API Restful de Agenda de Compromissos",
+  "name": "adonis-api-app",
+  "version": "4.1.0",
+  "adonis-version": "4.1.0",
+  "description": "Adonisjs boilerplate for API server with pre-configured JWT",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index",
-    "dev": "nodemon ./index"
+    "start": "node server.js",
+    "start": "ENV_SILENT=true node server.js",
+    "test": "node ace test"
   },
   "keywords": [
-    "lds",
-    "ulbratorres",
-    "desafio"
+    "adonisjs",
+    "adonis-app"
   ],
-  "author": "LDS",
-  "license": "ISC",
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "@adonisjs/ace": "^5.0.2",
+    "@adonisjs/auth": "^3.0.5",
+    "@adonisjs/bodyparser": "^2.0.3",
+    "@adonisjs/cors": "^1.0.6",
+    "@adonisjs/fold": "^4.0.8",
+    "@adonisjs/framework": "^5.0.7",
+    "@adonisjs/ignitor": "^2.0.6",
+    "@adonisjs/lucid": "^6.3.0",
+    "@adonisjs/validator": "^5.1.0",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "express": "^4.16.4"
+    "jwt-encode": "^1.0.1",
+    "knex": "^0.14.6",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mysql": "^2.18.1",
+    "pg": "^7.4.3"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.10"
+  "autoload": {
+    "App": "./app"
   }
 }
